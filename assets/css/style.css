@@ -95,7 +95,7 @@ nav{
     width: 100%;
     /*background: url(../images/hero5.jpg) no-repeat center center;*/
    overflow: hidden;
-    background-image: url(../images/hero5.jpg);
+    background-image: url(../images/hero2.jpg);
     background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -129,6 +129,21 @@ nav{
     transform: translate(-50%, -50%);
 
 
+}
+
+#intro{
+    width: 50%;
+    margin: 0 auto;
+    padding: 30px 30px 30px 30px;
+}
+
+h1, h2{
+    text-align: center;
+}
+
+p{
+    padding: 30px 30px 30px 30px;
+    text-align: center;
 }
 
 /* footer */
