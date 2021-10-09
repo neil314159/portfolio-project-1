@@ -90,3 +90,25 @@ h1, h2{
     position: absolute;
 
 }
+
+/* footer */
+
+footer {
+    height: 150px;
+}
+
+.social-links{
+    text-align: center;
+}
+
+.social-links > li{
+    display: inline;
+
+}
+
+.social-links i, a{
+    font-size: 100%;
+    margin: 1%;
+    padding: 2%;
+    color: #3a3a3a;
+}
