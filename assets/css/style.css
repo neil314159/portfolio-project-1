@@ -161,7 +161,7 @@ p{
 /* footer */
 
 footer {
-    padding: 20px; 
+    /* padding: 2rem 1rem;  */
   
   background: navy; 
 }
@@ -177,11 +177,12 @@ footer {
 
 
 
-.social-links i, .social-links a{
-    font-size: 150%;
-    margin: 1%;
-    padding: 2px;
+.social-links i{
+    font-size: 3rem;
+    margin: 3rem;
+    /* padding: 0; */
     color: #3a3a3a;
+    transition: 0.3s;
 }
 
 .social-links a:hover{
