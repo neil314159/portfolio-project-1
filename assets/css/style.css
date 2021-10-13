@@ -175,7 +175,9 @@ footer {
 
 }
 
-.social-links i, a{
+
+
+.social-links i, .social-links a{
     font-size: 150%;
     margin: 1%;
     padding: 2px;
@@ -183,7 +185,7 @@ footer {
 }
 
 .social-links a:hover{
-    color: white;
+    /* color: white; */
 }
 
 .social-links i:hover{
