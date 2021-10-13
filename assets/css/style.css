@@ -256,9 +256,12 @@ footer {
 .newsletter-signup {
     clear: left;
     background: url("../images/hero5.jpg");
+    /* background: rgba(146, 37, 37, 0.5) */
     background-size: cover;
     background-position: center;
-    height: 1000px;
+    height: 900px;
+    /* position: relative; */
+    /* overflow:hidden; */
 }
 
 .newsletter-form {
@@ -270,7 +273,33 @@ footer {
     top: 10%;
     left: 30%;
     padding: 30px;
+    
 }
+
+.newsletter-signup2 {
+    clear: left;
+    background: url("../images/hero5.jpg");
+    /* background: rgba(146, 37, 37, 0.5) */
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+    /* position: relative; */
+    /* overflow:hidden; */
+}
+
+.newsletter-form2 {
+    margin: 150px 10% 0 0;
+    color: #fff;
+    background-color: rgba(37, 146, 42, 0.9);
+    max-width: 400px;
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    padding: 30px;
+    
+}
+
+
 
 .newsletter-form > h2 {
     color: #fafafa;
@@ -308,4 +337,10 @@ footer {
 .join-now-button:hover {
     background-color: #fafafa;
     color: #f16c6b;
+}
+
+#video{
+    /* display: flex; */
+    min-width: 100%;
+    min-height: 100%;
 }
