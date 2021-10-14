@@ -300,7 +300,8 @@ footer {
     max-width: 400px;
     text-align: center;
     padding: 1rem;
-    margin: 1rem;
+    margin: 0 auto;
+    margin-bottom: 4rem;
     display: block-inline;
     background: white;
     border: solid 2px grey;
@@ -309,3 +310,30 @@ footer {
 .card > img{
     width: 100%;
 }
+
+.widecard {
+    height: 400px;
+    max-width: 70%;
+    margin: 0 auto;
+    border: solid 2px grey;
+    margin-bottom: 50px;
+    border-radius: 8px;
+    
+}
+
+.widecard img{
+    width: 100%;
+}
+
+.cardleft {
+   
+    width: 100%;
+    float: left;
+}
+
+.cardright {
+    
+    width: 100%;
+    float: right;
+}
+
