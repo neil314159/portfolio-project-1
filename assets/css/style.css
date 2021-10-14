@@ -1,6 +1,14 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Work+Sans&display=swap');
-</style>
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Work+Sans&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Montserrat:wght@600&family=Roboto&family=Work+Sans&display=swap');
+:root{
+    --charcoal: #264653ff;
+--persian-green: #2a9d8fff;
+--orange-yellow-crayola: #e9c46aff;
+--sandy-brown: #f4a261ff;
+--burnt-sienna: #e76f51ff;
+}
+
 *{
    margin: 0;
     padding: 0;
@@ -9,20 +17,21 @@
 }
 
 body{
-    font-family: 'Work Sans', sans-serif;
+    font-family: Lora, sans-serif;
     font-weight: 300;
-    color: #3a3a3a;
-    background: #ccc;
-    /* line-height: 1.6; */
+    color: var(--charcoal);
+    background: #F4E3B8;
+    /* line-height: 2rem; */
    
 } 
 
  /*navigation and logo styling */
 h1, h2{
- /* font-family: Roboto, sans-serif;
- text-transform: lowercase;
+  font-family: Montserrat, sans-serif;
+ text-transform: uppercase;
  letter-spacing: 4px;
- color: #252525; */
+ color: #252525; 
+ /* line-height: 2rem; */
 }
 /*
 header h1{
@@ -52,20 +61,21 @@ nav {
 */
 header{
     width: 100%;
-    background-color: red;;
+    background-color: #264653ff;;
 }
 nav{
     float: right;
-    background-color: red;
+    background-color: #264653ff;
     clear:both;
     width: 100%;
     height: auto;
+    color:white;
     /* margin: 0 0.2rem; */
 }
 #menu{
     font-size: 110%;
     letter-spacing: 4px;
-    background-color: red;
+    background-color: #264653ff;
     line-height: 60px;
 }
 
@@ -88,11 +98,11 @@ nav{
 
 #menu a:hover{
     
-    color: white;
+    color: #e9c46aff;
 }
 
 .active{
-    border-bottom: 1px solid #3a3a3a;
+    border-bottom: 1px solid #e9c46aff;
 }
 
 /*hero image*/
@@ -111,18 +121,19 @@ nav{
   margin-bottom: 3rem;
 }
 
-#image-text, #image-text h2{
+/* #image-text, #image-text h2{
     color: #fff;
 
-}
+} */
 
 #image-outer{
     position: relative;
 }
 
 #image-text, #image-text h1, #image-text a{
-    color: green;
+    color: #e9c46aff;
     text-decoration: none;
+    background-color: #e76f51ff;
    
 }
 /* adjust below*/
@@ -133,8 +144,8 @@ nav{
 } */
 
 #image-text{
-    font-size: 250%;
-    font-family: Rubik, sans-serif;
+    font-size: 350%;
+    font-family: Montserrat, sans-serif;
     text-transform: lowercase;
     letter-spacing: 4px;
     position: absolute;
@@ -149,6 +160,7 @@ nav{
     width: 60%;
     margin: 0 auto;
     padding: 30px 30px 30px 30px;
+    line-height: 2rem;
 }
 
 /* h1, h2{
@@ -163,20 +175,20 @@ p{
 }
 
 #stats {
-    background-color: navy;
-    width: 70%;
+    background-color: #F8C8A0;
+    /* width: 70%; */
     margin: 0 auto;
 }
 
 #results{
-    background-color: yellow;;
+    background-color: var(-burnt-sienna);;
 }
 /* footer */
 
 footer {
     
   
-  background: navy; 
+  background: #264653ff; 
 }
 
 .social-links{
@@ -192,9 +204,9 @@ footer {
 
 .social-links i{
     font-size: 3rem;
-    margin: 1.5%;
-    padding: 3%;
-    color: #3a3a3a;
+    margin: 0 1.5%;
+    padding: 2%;
+    color: #e9c46aff;
     transition: 0.3s;
 }
 
@@ -203,7 +215,7 @@ footer {
 }
 
 .social-links i:hover{
-    color: white;
+    color: #e76f51ff;
 }
 
 
@@ -318,7 +330,7 @@ footer {
     position: relative;
   
   
-    border: solid 2px white;
+    /* border: solid 2px white; */
     
     min-width: 250px;
    
@@ -327,15 +339,17 @@ footer {
     align-items: center;
     margin-bottom: 30px;
    
-   border-radius: 10px;
+   
 }
 
 
 #cities{
-    background-color: pink;
+    
     width: 85%;
     margin: 0 auto;
     margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
 }
 
 .cityimage{
@@ -343,20 +357,51 @@ footer {
     display: flex;
    align-items: flex-end;
     width: 60%;
-    position: relative;
+    /* position: relative; */
     overflow: hidden;
 }
 
 .cityinfo{
+    background-color: #e76f51ff;
+    height: 400px;
     display: flex;
     flex-direction: column;
+    flex-grow: 1;
     /* justify-content: flex-end; */
-    /* justify-content: center; */
-    align-items:flex-start;
-    /* align-items: center; */
+    justify-content: center;
+    /* align-items:flex-start; */
+    align-items: center;
+    align-content:space-between;
     width:40%;
-    height: 100%;
+    
     /* text-align: center; */
+}
+
+.flex-contianer {
+    display: flex;
+    justify-content: space-between;
+    height: 200px;
+    border: 1px solid red;
+  }
+  
+  .left-btn {
+    width: 100px;
+    border: 2px solid green;
+  }
+  
+  .right-btn {
+    /*align-self: flex-end;*/
+    width: 100px;
+    border: 2px solid blue;
+  }
+
+.citylinks{
+    display: flex;
+    flex-grow: 0.5;
+}
+
+.cityinfo h1{
+    margin-bottom: 40px;
 }
 
 .cityimage img{
@@ -392,7 +437,7 @@ footer {
 @media (max-width: 900px){
     
     #menu{
-        font-size: 40%%;
+        font-size: 40%;
        letter-spacing: 0.5px;
         background-color: red;
         line-height: 20px;
