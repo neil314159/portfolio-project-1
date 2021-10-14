@@ -1,6 +1,6 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Rubik&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Work+Sans&display=swap');
+</style>
 *{
    margin: 0;
     padding: 0;
@@ -9,20 +9,20 @@
 }
 
 body{
-    font-family: Merriweather, sans-serif;
+    font-family: 'Work Sans', sans-serif;
     font-weight: 300;
     color: #3a3a3a;
     background: #ccc;
-    line-height: 1.6;
+    /* line-height: 1.6; */
    
 } 
 
  /*navigation and logo styling */
 h1, h2{
- font-family: Rubik, sans-serif;
+ /* font-family: Roboto, sans-serif;
  text-transform: lowercase;
  letter-spacing: 4px;
- color: #252525;
+ color: #252525; */
 }
 /*
 header h1{
@@ -59,7 +59,8 @@ nav{
     background-color: red;
     clear:both;
     width: 100%;
-    margin: 0.5rem 0.2rem;
+    height: auto;
+    /* margin: 0 0.2rem; */
 }
 #menu{
     font-size: 110%;
@@ -145,14 +146,14 @@ nav{
 }
 
 #intro{
-    width: 50%;
+    width: 60%;
     margin: 0 auto;
     padding: 30px 30px 30px 30px;
 }
 
-h1, h2{
+/* h1, h2{
     text-align: center;
-}
+} */
 
 p{
     
@@ -442,7 +443,7 @@ footer {
     
     position: relative;
    
-    min-width: 350px;
+    min-width: 250px;
     min-height: 200px;
     height: auto;
     display: flex;
@@ -451,6 +452,7 @@ footer {
     /* display: flex;
     justify-content: center;
     align-items: center; */
+   
 }
 
 
@@ -462,15 +464,17 @@ footer {
 }
 
 .cityimage{
-  
     display: flex;
+   align-items: flex-end;
     width: 60%;
+    position: relative;
 }
 
 .cityinfo{
     display: flex;
+    flex-direction: column;
     width:40%;
-    text-align: center;
+    /* text-align: center; */
 }
 
 .cityimage img{
@@ -478,12 +482,44 @@ footer {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    /* filter: grayscale(100%); */
+    
 }
 
+.cityinfo p{
+    text-align: left;
+}
+
+.cityoverlay{
+    font-size: 800%;
+    text-transform: uppercase;
+    /* width: 100%; */
+   
+    color:white;
+     position:absolute;
+    /* bottom: 0;
+    left: 0; */ 
+    margin: 0;
+    background-color: rgba(0,0,0,.5);
+   
+}
+
+.cityimage img:hover{
+   
+   
+    filter: grayscale(0);
+}
 
 
 @media (max-width: 900px){
     
+    #menu{
+        font-size: 40%%;
+       letter-spacing: 0.5px;
+        background-color: red;
+        line-height: 20px;
+    }
+
     .product{
         flex-direction: column;
         width: 70%;
@@ -496,13 +532,16 @@ footer {
        s /* margin: 5vh 0; */
     }
 
+    .cityoverlay{
+        font-size: 400%;
+    }
     .cityinfo{
         width: 100%;
     }
 
     .cityimage{
         display: flex;
-        align-items: center;
+        align-items: flex-end;
         width: 100%;
     }
     .product-img{
