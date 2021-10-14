@@ -101,12 +101,8 @@ nav{
     color: #e9c46aff;
     text-decoration: none;
     background-color: #264653ff;
-   
-}
-
-
-#image-text{
-    font-size: 350%;
+    font-size: clamp(2rem, 6vw + 1rem, 9rem);
+    /* font-size: 200%; */
     font-family: Montserrat, sans-serif;
     text-transform: lowercase;
     letter-spacing: 4px;
@@ -114,6 +110,14 @@ nav{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    line-break: loose;
+}
+
+
+#image-text{
+    /* font-size: clamp(0.1rem, 2vw + 1rem, 8rem); */
+    /* font-size: clamp(4rem, 6vw + 1rem, 9rem); */
+    
 }
 
 #intro{
@@ -186,8 +190,8 @@ footer {
     
 }
 
-#resourceintro{
-
+#resourceintro p{
+padding-top: 50px;
 }
 
 #gallery img{
@@ -333,7 +337,8 @@ footer {
 }
 
 .cityoverlay{
-    font-size: 800%;
+    /* font-size: 800%; */
+    font-size: clamp(4rem, 6vw + 1rem, 9rem);
     text-transform: uppercase;
     color:white;
      position:absolute;
@@ -344,10 +349,10 @@ footer {
 @media (max-width: 900px){
     
     #menu{
-        font-size: 40%;
+        font-size: 100%;
        letter-spacing: 0.5px;
-        background-color: red;
-        line-height: 20px;
+       
+        line-height: 30px;
     }
 
     .product{
@@ -376,18 +381,13 @@ footer {
         align-items: flex-end;
         width: 100%;
     }
-    .product-img{
-        width: 100%;
-        height: 300px;
-    }
-    .product-listing{
-        width: 100%;
-        min-height: auto;
-    }
-    .name,.price{
-        font-size: 50px;
-    }
-    .info{
-        font: 16px;
+    
+    #gallery{
+    
+        line-height: 1.3;
+        column-count: 1;
+        column-gap: 20px;
+        margin: 3em;
+        
     }
 }
