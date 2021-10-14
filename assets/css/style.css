@@ -312,7 +312,8 @@ footer {
 }
 
 .widecard {
-    height: 400px;
+    height: 20vh;
+    padding: 5px;
     max-width: 70%;
     margin: 0 auto;
     border: solid 2px grey;
@@ -323,17 +324,26 @@ footer {
 
 .widecard img{
     width: 100%;
+    filter:grayscale(100%);
+    transition: 0.2s ease;
+}
+
+.widecard img:hover{
+   
+        
+        filter:grayscale(0);
+    
 }
 
 .cardleft {
    
-    width: 100%;
+    width: 50%;
     float: left;
 }
 
 .cardright {
     
-    width: 100%;
+    width: 50%;
     float: right;
 }
 
