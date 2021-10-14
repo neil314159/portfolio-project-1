@@ -67,10 +67,7 @@ nav{
     line-height: 60px;
 }
 
-/*#menu, #logo {
-    line-height: 75px;
-}
-*/
+
 #menu li{
     
     float: right;
@@ -127,11 +124,11 @@ nav{
    
 }
 /* adjust below*/
-hr {
+/* hr {
     border-top: 1px solid #3a3a3a;
     width: 100%;
     margin: 5px 0;
-}
+} */
 
 #image-text{
     font-size: 250%;
@@ -157,7 +154,7 @@ h1, h2{
 }
 
 p{
-    /*padding: 30px 30px 30px 30px;*/
+    
     text-align: center;
     
 }
@@ -165,7 +162,7 @@ p{
 /* footer */
 
 footer {
-    /* padding: 2rem 1rem;  */
+    
   
   background: navy; 
 }
@@ -197,28 +194,7 @@ footer {
     color: white;
 }
 
-/* footer CI code
 
-footer {
-    height: 150px;
-}
-
-.social-networks {
-    text-align: center;
-}
-
-.social-networks > li {
-    display: inline;
-}
-
-.social-networks i {
-    font-size: 160%;
-    margin: 1%;
-    padding: 5%;
-    color: #3a3a3a;
-}
-
-*/
 
 /*gallery*/
 #gallery{
@@ -276,28 +252,7 @@ footer {
     
 }
 
-.newsletter-signup2 {
-    clear: left;
-    background: url("../images/hero5.jpg");
-    /* background: rgba(146, 37, 37, 0.5) */
-    background-size: cover;
-    background-position: center;
-    height: 900px;
-    /* position: relative; */
-    /* overflow:hidden; */
-}
 
-.newsletter-form2 {
-    margin: 150px 10% 0 0;
-    color: #fff;
-    background-color: rgba(37, 146, 42, 0.9);
-    max-width: 400px;
-    position: absolute;
-    top: 10%;
-    left: 30%;
-    padding: 30px;
-    
-}
 
 
 
@@ -339,8 +294,18 @@ footer {
     color: #f16c6b;
 }
 
-#video{
-    /* display: flex; */
-    min-width: 100%;
-    min-height: 100%;
+/*card layout*/
+
+.card{
+    max-width: 400px;
+    text-align: center;
+    padding: 1rem;
+    margin: 1rem;
+    display: block-inline;
+    background: white;
+    border: solid 2px grey;
+}
+
+.card > img{
+    width: 100%;
 }
