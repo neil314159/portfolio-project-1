@@ -2,11 +2,9 @@
 
 ![Mockup](https://github.com/neil314159/portfolio-project-1/blob/main/docs/screenshot.png)
 
-
 ## Purpose
 
 Remote/Guide provides people with a list of the top cities and towns in Ireland suitable for remote working. This is based on criteria such as the price of renting or buying a house, the crime rate, the number of amenities in the area. The user is also provied with statistics on remote working, a resource page with links to recommended products and a newsletter to receive updates.
-
 
 ## Features
 
@@ -38,9 +36,9 @@ Remote/Guide provides people with a list of the top cities and towns in Ireland 
     * to allow easy location of tabs and to redirect the user if they mis-type the address
 
 ### Features to implement in the future
-* Add a google maps view of the locatiosn in the guide
-* replace css colours and fonts with variable names to make updating styles easier
-* make the newsletter signup form link to a functional page on trannsmission of data
+* Add a Google Maps view of the locations in the guide
+* Replace CSS colours and fonts with variable names to make updating styles easier
+* Make the newsletter signup form link to a functional page on trannsmission of data
 
 ## Wireframes
 screenshots to go here
