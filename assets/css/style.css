@@ -90,7 +90,7 @@ nav {
 #menu li {
     float: right;
     list-style-type: none;
-    margin-right: 30px;
+    margin-right: 2rem;
 }
 
 #menu a {
@@ -130,7 +130,7 @@ nav {
     color: #e9c46aff;
     text-decoration: none;
     background-color: #264653ff;
-    /* Vary text size to match size of page*/
+    /* vary text size to match size of page*/
     font-size: clamp(2rem, 6vw + 1rem, 9rem);
     font-family: 'Work Sans', sans-serif;
     text-transform: lowercase;
@@ -157,109 +157,7 @@ nav {
     line-height: 1.5;
 }
 
-/* Resource page product gallery */
-
-.itemlist {
-    column-count: 2;
-    column-gap: 20px;
-    max-width: 1000px;
-    min-width: 300px;
-    margin: 0 auto;
-}
-
-
-/* purchase button styling */
-#gallery a {
-    background-color: #f4a261ff;
-    color: white;
-    padding: 1em 1.5em;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    text-decoration: none;
-    font-family: 'Work Sans', sans-serif;
-    text-transform: uppercase;
-}
-
-#gallery a:hover {
-    background-color: #e76f51ff;
-}
-
-#gallery img {
-    width: 100%;
-    border-radius: 8px;
-}
-
-/*  product display card styling */
-.item {
-    padding: 1.2rem;
-    background: white;
-    margin-bottom: 1.2rem;
-    border-radius: 0.5rem;
-    display: inline-block;
-}
-
-/* extra padding for legibilty */
-.item h3 {
-    padding: 1rem 0;
-}
-
-/* Newsletter Signup Page*/
-
-/* main image */
-.newsletter-signup {
-    clear: left;
-    background: url("../images/signup-bg.jpg");
-    background-size: cover;
-    background-position: center;
-    height: 1000px;
-}
-
-/* form styling */
-.newsletter-form {
-    margin: 150px 10% 0 0;
-    background-color: rgba(233, 196, 106, 0.9);
-    max-width: 400px;
-    position: absolute;
-    top: 10%;
-    left: 30%;
-    padding: 30px;
-}
-
-.form-text {
-    background: transparent;
-    width: 100%;
-    height: 1.7rem;
-    margin: 0.3rem 0 1.4rem 0;
-    border: 1px solid white;
-    border-radius: 0.4rem;
-}
-
-label {
-    font-family: Inter, sans-serif;
-}
-
-.form-text:hover {
-    border-color: #e76f51ff;
-}
-
-.join-now-button {
-    font-family: 'Work Sans', sans-serif;
-    margin-top: 1.5rem;
-    font-size: 1.5rem;
-    border-radius: 0.5rem;
-    padding: 1rem 1.5rem;
-    background-color: #e76f51ff;
-    color: #fafafa;
-    width: 100%;
-    display: block;
-}
-
-.join-now-button:hover {
-    background-color: #fafafa;
-    color: #f16c6b;
-}
-
-/* Info Cards for Cities*/
+/* Info Cards for Cities */
 
 /* Section that holds all city cards in a column*/
 #cities {
@@ -339,14 +237,112 @@ label {
     left: 10px;
 }
 
+/* Resource page product gallery */
+
+.itemlist {
+    column-count: 2;
+    column-gap: 20px;
+    max-width: 1000px;
+    min-width: 300px;
+    margin: 0 auto;
+}
+
+
+/* purchase button styling */
+#gallery a {
+    background-color: #f4a261ff;
+    color: white;
+    padding: 1em 1.5em;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    font-family: 'Work Sans', sans-serif;
+    text-transform: uppercase;
+}
+
+#gallery a:hover {
+    background-color: #e76f51ff;
+}
+
+#gallery img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+/*  product display card styling */
+.item {
+    padding: 1.2rem;
+    background: white;
+    margin-bottom: 1.2rem;
+    border-radius: 0.5rem;
+    display: inline-block;
+}
+
+/* extra padding for legibilty */
+.item h3 {
+    padding: 1rem 0;
+}
+
+/* Newsletter Signup Page*/
+
+/* background image */
+.newsletter-signup {
+    clear: left;
+    background: url("../images/signup-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 1000px;
+}
+
+/* form styling */
+.newsletter-form {
+    margin: 150px 10% 0 0;
+    background-color: rgba(233, 196, 106, 0.9);
+    max-width: 400px;
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    padding: 30px;
+}
+
+.form-text {
+    background: transparent;
+    width: 100%;
+    height: 1.7rem;
+    margin: 0.3rem 0 1.4rem 0;
+    border: 1px solid white;
+    border-radius: 0.4rem;
+}
+
+label {
+    font-family: Inter, sans-serif;
+}
+
+.form-text:hover {
+    border-color: #e76f51ff;
+}
+
+.join-now-button {
+    font-family: 'Work Sans', sans-serif;
+    margin-top: 1.5rem;
+    font-size: 1.5rem;
+    border-radius: 0.5rem;
+    padding: 1rem 1.5rem;
+    background-color: #e76f51ff;
+    color: #fafafa;
+    width: 100%;
+    display: block;
+}
+
+.join-now-button:hover {
+    background-color: #fafafa;
+    color: #f16c6b;
+}
+
 /* Footer */
 
 footer {
     background: #264653ff;
-}
-
-.social-links {
-    text-align: center;
 }
 
 .social-links>li {
@@ -386,29 +382,43 @@ footer {
 /* Media Queries */
 
 @media (max-width: 800px) {
+    /*make menu smaller*/
+    #menu {
+        font-size: 1.2rem;
+        letter-spacing: 1px;
+        background-color: #264653ff;
+        line-height: 2.5rem;
+    }
 
+    #menu li {
+        float: right;
+        list-style-type: none;
+        margin-right: 1rem;
+    }
+
+     /* Arrange city card vertically on smaller screens*/
     #cities {
         width: 100%;
     }
 
     .cityinfo {
-
         height: auto;
         width: 100%;
         margin-bottom: 30px;
     }
 
+    /*reduce image size for small screen*/
     .cityimage {
         height: 300px;
         width: 100%;
         margin-bottom: 0;
     }
 
+    /*reduce padding*/
     .cityinfo h3 {
-        text-transform: uppercase;
         margin-top: 1rem;
         margin-bottom: 1.5rem;
-        color: white;
+       
     }
 
     /* make gallery single comumn on small screens */
@@ -416,6 +426,7 @@ footer {
         column-count: 1;
     }
 
+    /* reduce large font size*/
     #stats li {
         font-size: 1.5rem;
     }
