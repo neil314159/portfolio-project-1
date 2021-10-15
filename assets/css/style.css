@@ -239,7 +239,7 @@ nav {
 
 #gallery img {
     width: 100%;
-    border-radius: 0.5 rem;
+    border-radius: 8px;
 }
 
 /* style product display card */
@@ -441,7 +441,7 @@ footer {
 .errorpage{
     background: grey;
     height: 100vh;
-    width: 100wh;
+    width: 100vw;
 }
 .errorpageicon{
     margin: 4rem;
@@ -450,9 +450,10 @@ footer {
 }
 
 .errorpage h1{
-   margin: 1rem;
+   margin: 4rem 1rem;
     color:white;
-    font-size: clamp(2rem, 7vw + 1rem, 10rem);
+    font-size: clamp(2rem, 4vw + 1rem, 9rem);
+    
 }
 
 
