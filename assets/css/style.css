@@ -1,16 +1,16 @@
-
 /* @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Work+Sans&display=swap'); */
 @import url('https://fonts.googleapis.com/css2?family=Lora&family=Montserrat:wght@600&family=Roboto&family=Work+Sans&display=swap');
-:root{
+
+:root {
     --charcoal: #264653ff;
---persian-green: #2a9d8fff;
---orange-yellow-crayola: #e9c46aff;
---sandy-brown: #f4a261ff;
---burnt-sienna: #e76f51ff;
+    --persian-green: #2a9d8fff;
+    --orange-yellow-crayola: #e9c46aff;
+    --sandy-brown: #f4a261ff;
+    --burnt-sienna: #e76f51ff;
 }
 
-*{
-   margin: 0;
+* {
+    margin: 0;
     padding: 0;
     border: none;
     box-sizing: border-box;
@@ -18,36 +18,48 @@
 
 
 
-html, body, h1, h2, h3, p{
-    margin:0;
+html,
+body,
+h1,
+h2,
+h3,
+p {
+    margin: 0;
 }
 
-main{
+main {
     /* max-width: 800px;
     margin: 0 auto; */
 }
 
-h1, h2, h3, h4{
+h1,
+h2,
+h3,
+h4 {
     color: black;
     font-family: Montserrat, sans-serif;
     font-weight: 900;
     line-height: 1;
 }
 
-h2, h3, p{
+h2,
+h3,
+p {
     margin-bottom: 1em;
 }
 
-.centred-text{
+.centred-text {
     text-align: center;
 }
 
-#intro, #stats,  #cities{
+#intro,
+#stats,
+#cities {
     padding: 0 1em;
 }
 
-.container{
-    width:100%;
+.container {
+    width: 100%;
     padding: 1rem 1rem;
 }
 
@@ -55,97 +67,90 @@ section {
     /* padding: 4rem 0; */
 }
 
-.background-light{
-   
+.background-light {
+
     background: #F4E3B8;
 }
 
-.background-accent{
-    
+.background-accent {
+
     background: #e76f51ff;
 }
 
-body{
+body {
     /* font-family: Lora, sans-serif;
     font-weight: 400;
     /* color: var(--charcoal); */
     /* background: #F4E3B8; */
     /* line-height: 1.5rem;  */
-   
-} 
 
- /*navigation and logo styling */
-h1, h2{
-  /* font-family: Montserrat, sans-serif;
- text-transform: uppercase;
- letter-spacing: 4px;
- color: #252525; 
- line-height: 5rem; */
 }
 
-header{
+/*navigation menu styling */
+
+header {
     width: 100%;
-    background-color: #264653ff;;
+    background-color: #264653ff;
 }
-nav{
+
+nav {
     float: right;
     background-color: #264653ff;
-    clear:both;
+    clear: both;
     width: 100%;
     height: auto;
-    color:white;
+    color: white;
 }
-#menu{
-    font-size: 110%;
+
+#menu {
+    font-size: 1.2rem;
     letter-spacing: 4px;
     background-color: #264653ff;
-    line-height: 60px;
+    line-height: 3.5rem;
 }
 
-
-#menu li{
-    
+#menu li {
     float: right;
     list-style-type: none;
     margin-right: 30px;
-
 }
 
-#menu a{
+#menu a {
     text-decoration: none;
     color: inherit;
     transition: 0.2s;
 }
 
-#menu a:hover{
-    
+#menu a:hover {
     color: #e9c46aff;
 }
 
-.active{
+.active {
     border-bottom: 1px solid #e9c46aff;
 }
 
 /*hero image*/
-#hero-image{
+#hero-image {
     height: 30vh;
     width: 100%;
-   overflow: hidden;
+    overflow: hidden;
     background-image: url(../images/hero5.jpg);
     background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
 
-  position: relative;
-  text-align: center;
-  /* margin-bottom: 3rem; */
+    position: relative;
+    text-align: center;
+    /* margin-bottom: 3rem; */
 }
 
-#image-outer{
+#image-outer {
     position: relative;
 }
 
-#image-text, #image-text h1, #image-text a{
+#image-text,
+#image-text h1,
+#image-text a {
     color: #e9c46aff;
     text-decoration: none;
     background-color: #264653ff;
@@ -158,14 +163,15 @@ nav{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-   line-height: 6rem;;
+    line-height: 6rem;
+    ;
 }
 
 
-#image-text{
+#image-text {
     /* font-size: clamp(0.1rem, 2vw + 1rem, 8rem); */
     /* font-size: clamp(4rem, 6vw + 1rem, 9rem); */
-    
+
 }
 
 /* #intro{
@@ -176,113 +182,69 @@ nav{
     padding-bottom: 60px;
 } */
 
-#intro h1, #stats h1{
+#intro h1,
+#stats h1 {
     text-align: center;
     padding-bottom: 30px;
 }
 
-p{
+p {
     text-align: center;
     margin-bottom: 30px;
 }
 
-#stats {
-    /* background-color: #e76f51ff; */
-    /* width: 70%;
-    margin: 0 auto; */
+#stats {}
 
-
-    /* padding-top: 50px;
-    padding-bottom: 50px; */
-}
-
-#stats li{
+#stats li {
     list-style-type: none;
     margin-bottom: 20px;
 }
 
-/* .statcontents{
-    margin: 0 auto;
-    text-align: center;
-    width: 60%;;
-} */
-
-/* #results{
-    background-color: var(-burnt-sienna);;
-} */
 
 
-/* footer */
 
-footer {
-    
-  
-  background: #264653ff; 
-}
 
-.social-links{
-    text-align: center;
-}
+/*gallery of products on resource page*/
 
-.social-links > li{
-    display: inline;
-
-}
-
-.social-links i{
-    font-size: 3rem;
-    /* margin: 0 1.5%; */
-    padding: 2%;
-    color: white;
-    transition: 0.3s;
-}
-
-.social-links i:hover{
-    color: #e9c46aff;
-}
-
-/*gallery of products*/
-
-#gallery{
+#gallery {
     column-count: 2;
     column-gap: 20px;
 }
 
 /* styling of button to purchase product */
-#gallery a{
+#gallery a {
     background-color: #f4a261ff;
-  color: white;
-  padding: 1em 1.5em;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  text-decoration: none;
-  font-family: Roboto, sans-serif;
-  text-transform: uppercase;
+    color: white;
+    padding: 1em 1.5em;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    font-family: Roboto, sans-serif;
+    text-transform: uppercase;
 }
 
-#gallery a:hover{
+#gallery a:hover {
     background-color: #e76f51ff;
 }
 
-#gallery img{
+#gallery img {
     width: 100%;
     border-radius: 0.5 rem;
 }
 
 /* style product display card */
-.item{
+.item {
     padding: 1.2rem;
     background: white;
     margin-bottom: 1.2rem;
     border-radius: 0.5rem;
-    display:inline-block;
+    display: inline-block;
 }
 
 /* extra padding for legibilty */
-.item h3{
-    padding: 1rem 0; 
+.item h3 {
+    padding: 1rem 0;
 }
-
 
 
 /*Newsletter sign up page*/
@@ -307,20 +269,17 @@ footer {
     padding: 30px;
 }
 
-
-/* .newsletter-form > h2 {
-    
-    margin-bottom: 25px; 
-}*/
-
 .form-text {
     background: transparent;
     width: 100%;
-    height: 25px;
-    margin: 5px 0 20px 0;
-    border: 1px solid #fafafa;
+    height: 1.7rem;
+    margin: 0.3rem 0 1.4rem 0;
+    border: 1px solid white;
     border-radius: 0.4rem;
+}
 
+label {
+    font-family: Montserrat, sans-serif;
 }
 
 .form-text:hover {
@@ -328,6 +287,7 @@ footer {
 }
 
 .join-now-button {
+    font-family: Montserrat, sans-serif;
     margin-top: 1.5rem;
     font-size: 1.5rem;
     border-radius: 0.5rem;
@@ -336,7 +296,6 @@ footer {
     color: #fafafa;
     display: block;
     width: 100%;
-    
 }
 
 .join-now-button:hover {
@@ -344,169 +303,167 @@ footer {
     color: #f16c6b;
 }
 
-
-
-
 /*City display cards*/
 
-.city2{
-    
-    /* position: relative; */
-    /* min-width: 250px; */
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
-    /* margin-bottom: 30px; */
-    /* position: relative; */
-    /* clear:both; */
-    border-radius: 8px;
-    overflow: hidden;
-    
-}
-
-#cities{
-    /* width: 65rem; */
-    /* height: auto; */
-    /* margin: 0 auto; */
-    /* margin-bottom: 50px; */
+#cities {
     display: flex;
     flex-direction: column;
-    /* padding-top: 50px; */
     position: relative;
 }
 
 
+.city2 {}
 
-.cityimage2{
+.cityimage2 {
     height: 400px;
     /* display: flex; */
-   /* align-items: flex-end; */
+    /* align-items: flex-end; */
     width: 60%;
     float: left;
     position: relative;
-    
+
     /* overflow: hidden; */
 }
 
-.cityinfo2{
+.cityinfo2 {
     background-color: #264653ff;
     font-family: Roboto, sans-serif;
     height: 400px;
-    float:right;
-    
-    width:40%;
+    float: right;
+
+    width: 40%;
 }
 
 .citydetail {
     color: white;
 }
 
-.citylink > a{
+.citylink>a {
     color: white;
     text-decoration: none;
 }
 
-.citylink > a:hover{
+.citylink>a:hover {
     color: red;
-    
+
 }
 
-
-.cityinfo h1{
+.cityinfo h1 {
     margin-bottom: 40px;
     color: white;
 }
 
-.cityimage img{
+.cityimage img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-   
 }
 
-.cityimage2 img{
+.cityimage2 img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-   
+
 }
 
-
-
-
-.cityoverlay2{
+.cityoverlay2 {
     /* font-size: 800%; */
     font-size: clamp(3rem, 4vw + 1rem, 8rem);
     text-transform: uppercase;
-    color:white;
-     /* position:absolute; */
-     font-family: Roboto;
+    color: white;
+    /* position:absolute; */
+    font-family: Roboto;
     line-height: 4.5rem;
     margin: 0;
-    background-color: rgba(0,0,0,.5);
+    background-color: rgba(0, 0, 0, .5);
     padding: 0;
     position: absolute;
     bottom: 10px;
     left: 10px;
 }
 
-@media (max-width: 800px){
-    
-    #cities{
+
+/* footer */
+
+footer {
+    background: #264653ff;
+}
+
+.social-links {
+    text-align: center;
+}
+
+.social-links>li {
+    display: inline;
+}
+
+.social-links i {
+    font-size: 3rem;
+    /* margin: 0 1.5%; */
+    padding: 2%;
+    color: white;
+    transition: 0.3s;
+}
+
+.social-links i:hover {
+    color: #e9c46aff;
+}
+
+/* responsive 404 page  */
+
+.errorpage{
+    background: grey;
+    height: 100vh;
+    width: 100wh;
+}
+.errorpageicon{
+    margin: 4rem;
+    font-size: clamp(10rem, 20vw + 4rem, 20rem);
+    color:white;
+}
+
+.errorpage h1{
+   margin: 1rem;
+    color:white;
+    font-size: clamp(2rem, 7vw + 1rem, 10rem);
+}
+
+errorpage h3{
+    color: white;
+    font-size: clamp(2rem, 6vw + 1rem, 30rem);
+
+}
+
+/* media queries */
+
+@media (max-width: 800px) {
+
+    #cities {
         width: 100%;
     }
- 
-     .city{
-         /* flex-direction: column; */
-         width: 100%;
-        /* height: auto; */
-       
-     }
- 
-     .city2{
-         /* flex-direction: column; */
-         /* width: 95%; */
-        /* height: auto; */
-     }
- 
-     .cityoverlay{
-         /* font-size: 400%; */
-     }
-     .cityinfo{
-         /* display: flex;
-         flex-direction: column; */
-         height: 300px;
-         width: 100%;
-         /* clear:both; */
-         border-radius: 10px;
-     }
- 
-     .cityinfo2{
-         /* display: flex;
-         flex-direction: column; */
-         height: auto;
-         width: 100%;
-         /* clear:both; */
-     }
- 
-     .cityimage{
-         /* display: flex;
-         align-items: flex-end; */
-         height: 300px;
-         width: 100%;
-         clear:both;
-     }
- 
-     .cityimage2{
-         /* display: flex;
-         align-items: flex-end; */
-         height: 300px;
-         width: 100%;
-         /* clear:both; */
-     }
 
-     /* make gallery single comumn on small screens */
-     #gallery{
+
+    .city2 {}
+
+    .cityoverlay {}
+
+
+    .cityinfo2 {
+
+        height: auto;
+        width: 100%;
+
+    }
+
+    .cityimage2 {
+
+        height: 300px;
+        width: 100%;
+
+    }
+
+    /* make gallery single comumn on small screens */
+    #gallery {
         column-count: 1;
     }
 }
