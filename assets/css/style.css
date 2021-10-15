@@ -387,7 +387,7 @@ footer {
         font-size: 1.2rem;
         letter-spacing: 1px;
         background-color: #264653ff;
-        line-height: 2.5rem;
+        line-height: 3.5rem;
     }
 
     #menu li {
@@ -426,11 +426,12 @@ footer {
         column-count: 1;
     }
 
-    /* reduce large font size*/
+    /* reduce large font size in stats section*/
     #stats li {
         font-size: 1.5rem;
     }
 
+    /* reduce general padding on all sections*/
     section {
         padding: 1.5rem 0;
     }
