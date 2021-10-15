@@ -27,7 +27,7 @@ main{
     margin: 0 auto; */
 }
 
-h1, h2, h3{
+h1, h2, h3, h4{
     color: black;
     font-family: Montserrat, sans-serif;
     font-weight: 900;
@@ -247,7 +247,7 @@ footer {
     line-height: 1.3;
     column-count: 2;
     column-gap: 20px;
-    margin: 3em;
+    /* margin: 3em; */
     
 }
 
@@ -292,13 +292,13 @@ text-align: center;
     margin-bottom: 10px;
 }
 
-.item h4{
-    text-transform: uppercase;
+.item h3{
+    /* text-transform: uppercase;
     font-family: Montserrat, sans-serif;
     font-size:2rem;
     color: black;
-    text-align: center;
-    padding: 1rem 0;
+    text-align: center;*/
+    padding: 1rem 0; 
 }
 
 
@@ -375,6 +375,9 @@ text-align: center;
     /* margin-bottom: 30px; */
     /* position: relative; */
     /* clear:both; */
+    border-radius: 8px;
+    overflow: hidden;
+    
 }
 
 #cities{
@@ -388,16 +391,7 @@ text-align: center;
     position: relative;
 }
 
-.cityimage{
-    height: 400px;
-    /* display: flex; */
-   /* align-items: flex-end; */
-    width: 60%;
-    float: left;
-    /* position: relative; */
-   
-    /* overflow: hidden; */
-}
+
 
 .cityimage2{
     height: 400px;
@@ -406,7 +400,7 @@ text-align: center;
     width: 60%;
     float: left;
     position: relative;
-   
+    
     /* overflow: hidden; */
 }
 
@@ -415,7 +409,7 @@ text-align: center;
     font-family: Roboto, sans-serif;
     height: 400px;
     float:right;
-  
+    
     width:40%;
 }
 
@@ -482,6 +476,7 @@ text-align: center;
          /* flex-direction: column; */
          width: 100%;
         /* height: auto; */
+       
      }
  
      .city2{
@@ -499,6 +494,7 @@ text-align: center;
          height: 300px;
          width: 100%;
          /* clear:both; */
+         border-radius: 10px;
      }
  
      .cityinfo2{
@@ -524,4 +520,12 @@ text-align: center;
          width: 100%;
          /* clear:both; */
      }
+
+     #gallery{
+    
+       
+        column-count: 1;
+        
+        
+    }
 }
