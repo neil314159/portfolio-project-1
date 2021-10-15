@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bitter&family=Work+Sans:wght@700&display=swap');
 
+/* Layout and typography */
+
 * {
     margin: 0;
     padding: 0;
@@ -29,10 +31,12 @@ p {
     margin-bottom: 1em;
 }
 
+/* class for all centred text elements*/
 .centred-text {
     text-align: center;
 }
 
+/* general purpose div to maintain consistent width*/
 .container {
     margin: 0 auto;
     max-width: 65rem;
@@ -43,6 +47,7 @@ section {
     padding: 4rem 1rem;
 }
 
+/* background color classes for page sections*/
 .background-light {
     background: #F4E3B8;
 }
@@ -59,7 +64,7 @@ body {
     line-height: 1.5rem;
 }
 
-/*navigation menu styling */
+/* Navigation Menu */
 
 header {
     width: 100%;
@@ -102,7 +107,7 @@ nav {
     border-bottom: 1px solid #e9c46aff;
 }
 
-/*hero image*/
+/* Header Image on Main Page */
 
 #hero-image {
     height: 30vh;
@@ -125,6 +130,7 @@ nav {
     color: #e9c46aff;
     text-decoration: none;
     background-color: #264653ff;
+    /* Vary text size to match size of page*/
     font-size: clamp(2rem, 6vw + 1rem, 9rem);
     font-family: 'Work Sans', sans-serif;
     text-transform: lowercase;
@@ -136,6 +142,8 @@ nav {
     line-height: 6rem;
     ;
 }
+
+/* Statistics section on main page */
 
 #stats ul {
     margin-top: 4rem;
@@ -149,7 +157,7 @@ nav {
     line-height: 1.5;
 }
 
-/*gallery of products on resource page*/
+/* Resource page product gallery */
 
 .itemlist {
     column-count: 2;
@@ -159,8 +167,8 @@ nav {
     margin: 0 auto;
 }
 
-/* styling of button to purchase product */
 
+/* purchase button styling */
 #gallery a {
     background-color: #f4a261ff;
     color: white;
@@ -181,8 +189,7 @@ nav {
     border-radius: 8px;
 }
 
-/* style product display card */
-
+/*  product display card styling */
 .item {
     padding: 1.2rem;
     background: white;
@@ -196,8 +203,7 @@ nav {
     padding: 1rem 0;
 }
 
-
-/*Newsletter sign up page*/
+/* Newsletter Signup Page*/
 
 /* main image */
 .newsletter-signup {
@@ -244,8 +250,8 @@ label {
     padding: 1rem 1.5rem;
     background-color: #e76f51ff;
     color: #fafafa;
-    display: block;
     width: 100%;
+    display: block;
 }
 
 .join-now-button:hover {
@@ -253,29 +259,27 @@ label {
     color: #f16c6b;
 }
 
-/*City display cards*/
+/* Info Cards for Cities*/
 
+/* Section that holds all city cards in a column*/
 #cities {
     display: flex;
     flex-direction: column;
     position: relative;
 }
 
-.cityimage {
-    height: 400px;
-    width: 60%;
-    float: left;
-    position: relative;
-    margin-bottom: 20px;
-}
-
+/* Styling for text details*/
 .cityinfo {
     background-color: #264653ff;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Bitter', sans-serif;
     height: 400px;
     float: right;
     margin-bottom: 20px;
     width: 40%;
+}
+
+.citydetail {
+    color: white;
 }
 
 .citydetail i {
@@ -283,7 +287,7 @@ label {
 }
 
 .citylink {
-    background-color: #f4a261ff;
+    background-color: rgb(224, 110, 17);
     color: white;
     padding: 0.5em 1em;
     margin-top: 0.5rem;
@@ -295,16 +299,8 @@ label {
     display: block;
 }
 
-.citydetail {
-    color: white;
-}
-
-.citylink>a {
-    color: white;
-}
-
 .citylink:hover {
-    background-color: #e76f51ff;
+    background-color: rgb(216, 64, 25);
 }
 
 .cityinfo h3 {
@@ -312,6 +308,15 @@ label {
     margin-top: 2rem;
     margin-bottom: 3.5rem;
     color: white;
+}
+
+/* Image formatting and text overlay*/
+.cityimage {
+    height: 400px;
+    width: 60%;
+    float: left;
+    position: relative;
+    margin-bottom: 20px;
 }
 
 .cityimage img {
@@ -334,8 +339,7 @@ label {
     left: 10px;
 }
 
-
-/* footer */
+/* Footer */
 
 footer {
     background: #264653ff;
@@ -351,7 +355,7 @@ footer {
 
 .social-links i {
     font-size: 3rem;
-    padding: 2%;
+    padding: 2rem;
     color: white;
     transition: 0.3s;
 }
@@ -360,7 +364,7 @@ footer {
     color: #e9c46aff;
 }
 
-/* responsive 404 page  */
+/* Responsive 404 page  */
 
 .errorpage {
     background: #264653ff;
@@ -379,8 +383,7 @@ footer {
     font-size: clamp(2rem, 4vw + 1rem, 9rem);
 }
 
-
-/* media queries */
+/* Media Queries */
 
 @media (max-width: 800px) {
 
