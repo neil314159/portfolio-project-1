@@ -1,6 +1,6 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Work+Sans&display=swap'); */
-@import url('https://fonts.googleapis.com/css2?family=Lora&family=Montserrat:wght@600&family=Roboto&family=Work+Sans&display=swap');
-
+/* @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Bitter&family=Work+Sans:wght@700&display=swap');
 :root {
     --charcoal: #264653ff;
     --persian-green: #2a9d8fff;
@@ -30,18 +30,18 @@ main {
     margin: 0 auto; */
 }
 
-h1,
 h2,
 h3,
 h4 {
     /* color: black; */
-    font-family: Montserrat, sans-serif;
-    font-weight: 900;
+    font-family: 'Work Sans', sans-serif;
+    /* font-weight: 900; */
     line-height: 1;
+    margin-bottom: 1em;
+    color: #001f3f;
 }
 
-h2,
-h3,
+
 p {
     margin-bottom: 1em;
 }
@@ -59,11 +59,12 @@ p {
 .container {
     /* width: 100%; */
     margin: 0 auto;
+    max-width: 65rem;
     padding: 1rem 1rem;
 }
 
 section {
-    padding: 3rem 1rem;
+    padding: 4rem 1rem;
 }
 
 .background-light {
@@ -77,10 +78,10 @@ section {
 }
 
 body {
-    font-family: Lora, sans-serif;
+    font-family: Bitter, sans-serif;
     font-weight: 400;
    font-size: 1.3rem;
-
+color: #001f3f;
     line-height: 1.5rem; 
 
 }
@@ -155,7 +156,7 @@ nav {
     background-color: #264653ff;
     font-size: clamp(2rem, 6vw + 1rem, 9rem);
     /* font-size: 200%; */
-    font-family: Montserrat, sans-serif;
+    font-family: 'Work Sans', sans-serif;
     text-transform: lowercase;
     letter-spacing: 4px;
     position: absolute;
@@ -194,9 +195,17 @@ nav {
 
 #stats {}
 
+#stats ul{
+    margin-top: 4rem;
+}
+
 #stats li {
+    font-size: 2rem;
     list-style-type: none;
-    margin-bottom: 20px;
+    margin-bottom: 2rem;;
+    color: rgb(51, 51, 51);
+    line-height: 1.5;
+    /* margin: 1rem; */
 }
 
 
@@ -205,9 +214,11 @@ nav {
 
 /*gallery of products on resource page*/
 
-#gallery {
+.itemlist {
     column-count: 2;
     column-gap: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
 /* styling of button to purchase product */
@@ -218,7 +229,7 @@ nav {
     margin-top: 20px;
     margin-bottom: 20px;
     text-decoration: none;
-    font-family: Roboto, sans-serif;
+    font-family: 'Work Sans', sans-serif;
     text-transform: uppercase;
 }
 
@@ -278,7 +289,7 @@ nav {
 }
 
 label {
-    font-family: Montserrat, sans-serif;
+    font-family: Inter, sans-serif;
 }
 
 .form-text:hover {
@@ -286,7 +297,7 @@ label {
 }
 
 .join-now-button {
-    font-family: Montserrat, sans-serif;
+    font-family: 'Work Sans', sans-serif;
     margin-top: 1.5rem;
     font-size: 1.5rem;
     border-radius: 0.5rem;
@@ -311,9 +322,12 @@ label {
 }
 
 
-.city2 {}
+.city {
 
-.cityimage2 {
+   
+}
+
+.cityimage {
     height: 400px;
     /* display: flex; */
     /* align-items: flex-end; */
@@ -321,16 +335,26 @@ label {
     float: left;
     position: relative;
 
-    /* overflow: hidden; */
+    margin-bottom:20px;
 }
 
-.cityinfo2 {
+.cityinfo {
     background-color: #264653ff;
-    font-family: Roboto, sans-serif;
+    font-family: 'Work Sans', sans-serif;
     height: 400px;
     float: right;
-
+    margin-bottom:20px;
     width: 40%;
+}
+
+.citydetail i{
+    margin-right: 1rem;;
+}
+
+.citylink{
+    text-decoration: none;
+    color:red;
+    font-size: 1rem;
 }
 
 .citydetail {
@@ -339,7 +363,7 @@ label {
 
 .citylink>a {
     color: white;
-    text-decoration: none;
+    
 }
 
 .citylink>a:hover {
@@ -348,7 +372,9 @@ label {
 }
 
 .cityinfo h1 {
-    margin-bottom: 40px;
+    text-transform: uppercase;
+   margin-top: 2rem;
+   margin-bottom: 5rem;
     color: white;
 }
 
@@ -358,20 +384,15 @@ label {
     object-fit: cover;
 }
 
-.cityimage2 img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
 
-}
 
-.cityoverlay2 {
+.cityoverlay {
     /* font-size: 800%; */
     font-size: clamp(3rem, 4vw + 1rem, 8rem);
     text-transform: uppercase;
     color: white;
     /* position:absolute; */
-    font-family: Roboto;
+    font-family: 'Work Sans';
     line-height: 4.5rem;
     margin: 0;
     background-color: rgba(0, 0, 0, .5);
@@ -430,6 +451,8 @@ footer {
 
 /* media queries */
 
+
+
 @media (max-width: 800px) {
 
     #cities {
@@ -437,27 +460,40 @@ footer {
     }
 
 
-    .city2 {}
+    .city {
+
+       
+    }
 
     .cityoverlay {}
 
 
-    .cityinfo2 {
+    .cityinfo {
 
         height: auto;
         width: 100%;
-
+margin-bottom: 30px;
     }
 
-    .cityimage2 {
+    .cityimage {
 
         height: 300px;
         width: 100%;
+        margin-bottom:0;
 
     }
 
     /* make gallery single comumn on small screens */
-    #gallery {
+   .itemlist {
         column-count: 1;
+    }
+
+    #stats li {
+        font-size: 1.5rem;
+       
+    }
+
+    section{
+        padding: 1.5rem 0;
     }
 }
