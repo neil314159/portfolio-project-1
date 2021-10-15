@@ -68,7 +68,7 @@ body {
 
 header {
     width: 100%;
-    background-color: #264653ff;
+    /* background-color: #264653ff; */
 }
 
 nav {
@@ -83,7 +83,7 @@ nav {
 #menu {
     font-size: 1.2rem;
     letter-spacing: 4px;
-    background-color: #264653ff;
+    /* background-color: #264653ff; */
     line-height: 3.5rem;
 }
 
@@ -247,11 +247,10 @@ nav {
     margin: 0 auto;
 }
 
-
 /* purchase button styling */
 #gallery a {
     background-color: #f4a261ff;
-    color: white;
+    color: #001f3f;
     padding: 1em 1.5em;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -310,6 +309,7 @@ nav {
     width: 100%;
     height: 1.7rem;
     margin: 0.3rem 0 1.4rem 0;
+    padding-left: 0.5rem;
     border: 1px solid white;
     border-radius: 0.4rem;
 }
@@ -329,7 +329,7 @@ label {
     border-radius: 0.5rem;
     padding: 1rem 1.5rem;
     background-color: #e76f51ff;
-    color: #fafafa;
+    color: ##001f3f;
     width: 100%;
     display: block;
 }
