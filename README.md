@@ -2,29 +2,48 @@
 
 ![Mockup](https://github.com/neil314159/portfolio-project-1/blob/main/docs/screenshot.png)
 
-Readme outline
 
-Overviews rr
-
-Screenshots
+## Purpose
 
 
-Purpose
--structure
--design
---colurs, typography, images, wireframes
 
-accessibility
 
-Features
-navigation
-header
-resources
-newsletter signup
-contact/footer
+## Features
 
--implemented
--future
+* Navigation Bar
+    * Provides direct links to home page, resource page and newsletter signup
+
+* Main landing Page
+    * Shows direct navigation links at top of page and large header image with name of the site
+
+* Introduction
+    * Explains the purpose of the site adandn what visitors can expect to gain from it
+
+* Statistics
+    * Provides recent stats around the practices of remote working
+
+* Results
+    * Shows the results of a nationwide survey about the best cities to work remotely from
+
+* Resource Page
+    * Presents a gallery of useful products for remote workers and links on where to buy them
+
+* Newsletter sign-up page
+    * Has a form which allows the user to sign up for a newsletter about remote working
+
+* Footer
+    * Present on all pages, provides easy links to social media accounts for the page
+
+* Favicon & 404 Page
+    * to allow easy location of tabs and to redirect the user if they mis-type the address
+
+### Features to implement in the future
+* Add a google maps view of the locatiosn in the guide
+* replace css colours and fonts with variable names to make updating styles easier
+* make the newsletter signup form link to a functional page on trannsmission of data
+
+## Wireframes
+screenshots to go here
 
 ## Technologies used
 * HTML was used to construct the website
@@ -34,23 +53,26 @@ contact/footer
 * [Github](https://fontawesome.com) was used for the code and images needed for the site
 * [Git Pages](https://fontawesome.com) was used to deploy the site
 * [Gitpod](https://fontawesome.com) was used as a remote IDE to link with Github
-* [Font Awesome](https://fontawesome.com) icons were used for the property details page
-* [Font Awesome](https://fontawesome.com) icons were used for the property details page
 
-### Features to implement in the future
-* Add a google maps view of the locatiosn in the guide
-* replace css colours and fonts with variable names to make updating styles easier
-* make the newsletter signup form link to a functional page on trannsmission of data
+## Accessibility
+steps taken here, google report
 
 
-Testing
+## Testing
+
 -strategy
 -steps taken
 -results
 
 
+### Validation Testing
+screenshot results here
 
-validator testing
+
+### Unfixed Bugs
+
+No bugs remain at this point.
+
 
 ## Deployment
 
@@ -70,9 +92,12 @@ All written content was created by myself.
 
 Data was used from the website www.swiitcher.ie
 
-###Media
+### Media
 
 All pictures taken from Unsplash and Pixabay
 
 ### Code
 CSS clamp technique taken from youtube tutorial at Kevin Parnell's channel, linked here.
+
+### Acknowledments
+
