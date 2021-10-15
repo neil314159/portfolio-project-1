@@ -16,8 +16,6 @@
     box-sizing: border-box;
 }
 
-
-
 html,
 body,
 h1,
@@ -36,7 +34,7 @@ h1,
 h2,
 h3,
 h4 {
-    color: black;
+    /* color: black; */
     font-family: Montserrat, sans-serif;
     font-weight: 900;
     line-height: 1;
@@ -52,19 +50,20 @@ p {
     text-align: center;
 }
 
-#intro,
+/* #intro,
 #stats,
 #cities {
     padding: 0 1em;
-}
+} */
 
 .container {
-    width: 100%;
+    /* width: 100%; */
+    margin: 0 auto;
     padding: 1rem 1rem;
 }
 
 section {
-    /* padding: 4rem 0; */
+    padding: 3rem 1rem;
 }
 
 .background-light {
@@ -78,11 +77,11 @@ section {
 }
 
 body {
-    /* font-family: Lora, sans-serif;
+    font-family: Lora, sans-serif;
     font-weight: 400;
-    /* color: var(--charcoal); */
-    /* background: #F4E3B8; */
-    /* line-height: 1.5rem;  */
+   font-size: 1.3rem;
+
+    line-height: 1.5rem; 
 
 }
 
@@ -148,7 +147,7 @@ nav {
     position: relative;
 }
 
-#image-text,
+
 #image-text h1,
 #image-text a {
     color: #e9c46aff;
@@ -188,10 +187,10 @@ nav {
     padding-bottom: 30px;
 }
 
-p {
+/* p {
     text-align: center;
     margin-bottom: 30px;
-}
+} */
 
 #stats {}
 
