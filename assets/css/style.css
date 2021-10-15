@@ -134,7 +134,7 @@ nav {
     height: 30vh;
     width: 100%;
     overflow: hidden;
-    background-image: url(../images/hero5.jpg);
+    background-image: url(../images/hero-image.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -263,7 +263,7 @@ nav {
 /* main image */
 .newsletter-signup {
     clear: left;
-    background: url("../images/hero1.jpg");
+    background: url("../images/signup-bg.jpg");
     background-size: cover;
     background-position: center;
     height: 1000px;
@@ -445,7 +445,7 @@ footer {
     /*width: 100vw; */
 }
 .errorpageicon{
-    margin: 2rem;
+    margin: 3rem;
     font-size: clamp(6rem, 10vw + 4rem, 20rem);
     color:white;
 }
