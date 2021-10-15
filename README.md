@@ -78,7 +78,7 @@ Remote/Guide was deployed to GitHub Pages by following the below steps:
 1. Navigate to the [Project 1 portfolio](https://github.com/neil314159/portfolio-project-1) on GitHub.
 1. Navigate to the 'Settings' tab.
 1. Navigate to 'Pages' from the menu on the left. 
-1. Select 'master' branch in the source drop-down.
+1. Select 'main' branch in the source drop-down.
 1. Click 'Save'.
 1. A link to the live deployed page is generated and can be found here: https://neil314159.github.io/portfolio-project-1/
 
