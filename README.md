@@ -64,6 +64,7 @@ screenshots to go here
 * HTML: All pages in the site were tested using the [W3C Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fneil314159.github.io%2Fportfolio-project-1%2Findex.html). On the newsletter signup page I received a warning about a stray <div> tag which was then fixed. All other pages were passed showed no problems.
 * CSS: The CSS file was tested using the [W3C Jigsaw](jigsaw.w3.org) validator. This showed an extra hash mark in one of the number codes, which was then removed.
 * Accessibility: the site was examined using the Google Lighthouse suite in Chrome and the [Wave](https://wave.webaim.org/report#/https://neil314159.github.io/portfolio-project-1/index.html) accessibilty checker. This showed up one issue, which was the light text on an orange background for some buttons had a poor contrast ratio. The text was made darker and the issue was resolved.
+![Lighthouse](https://github.com/neil314159/portfolio-project-1/blob/main/docs/lighthouse.png)
 
 
 ### Unfixed Bugs
