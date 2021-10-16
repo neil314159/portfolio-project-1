@@ -86,16 +86,20 @@ Remote/Guide was deployed to GitHub Pages by following the below steps:
 
 ### Content
 
-All written content was created by myself.
+The written text on the main page was created by myself.
 
-Data was used from the website www.swiitcher.ie
+The numerical data used was from[Switcher](https://www.switcher.ie)
 
 ### Media
 
-All pictures taken from Unsplash and Pixabay
+All pictures were taken from [Unsplash](www.unsplash.com) and [Pixabay](www.pixabay.com)
 
 ### Code
+
 CSS clamp technique taken from youtube tutorial at Kevin Parnell's channel, linked here.
 
 ### Acknowledments
+Thanks to Daisy McGirr for her advice and guidance.
 
+# Note on commit history
+There was a brief period during this project where Gitpod was offline, so I used my own local copy of VS Code on my laptop. When I Linked to Github and made my commits it did not authenticate them properly, and so it can appear that another user was making commits. I have contacted Student Care and one of the online tutors about this, who recommended including this explanation. If you have any concerns I can be contacted about this.
