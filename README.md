@@ -1,6 +1,12 @@
 # Remote/Guide
 
-![Mockup](https://github.com/neil314159/portfolio-project-1/blob/main/docs/screenshot.png)
+![Mockup](https://github.com/neil314159/portfolio-project-1/blob/main/docs/screenshot.png) <br>
+
+## Table of Contents
+* [Purpose](#Purpose)
+* [Features] (#Features)
+* [Technologies Used](#Technologies-Used)
+
 
 ## Purpose
 
@@ -8,32 +14,43 @@ Remote/Guide provides people with a list of the top cities and towns in Ireland 
 
 ## Features
 
-* Navigation Bar
-    * Provides direct links to home page, resource page and newsletter signup
+* Navigation Bar 
+    * Provides links to the home page, the resource page and the newsletter signup page, allowing the user to easily navigate their way to each section. This is a clear, simple menu present on every page so the user can be confident in using the site.
 
-* Main landing Page
-    * Shows direct navigation links at top of page and large header image with name of the site
+    ![Navigation](docs/nav.png)
 
-* Introduction
-    * Explains the purpose of the site adandn what visitors can expect to gain from it
+* Header Image
+    * The large header image on the home page shows a man working at a computer in a home office. There is a text overlay providing the title of the site. The picture and title captures the interest of the user and provides context about the theme and function of the site.
 
-* Statistics
-    * Provides recent stats around the practices of remote working
+    ![Header](docs/heroimage.png)
+
+* Introduction & Statistics
+    * Here the user can learn the purpose of the site and the type of information they will learn. In this case, the best places to work from home in Ireland are ranked in a list. They are also provided with background information on changing attitudes to remote working to better inform them.
+
+    ![Intro](docs/introstats.png)
 
 * Results
-    * Shows the results of a nationwide survey about the best cities to work remotely from
+    * There is a list of 5 places in Ireland ranked by how suitable they are for working from home. Each place has a card showing a picture of the area as well as information such as the cost of renting or buying a property, as well as the rate of crime and the amenities such as coffee shops available.
+
+    ![City](docs/citycard.png)
 
 * Resource Page
-    * Presents a gallery of useful products for remote workers and links on where to buy them
+    * Here the user can see a gallery page with useful products for working from home. They can see pictures of the product, as well as clicking the links to be presented with options on where to buy them. These links open in a new tab.
 
-* Newsletter sign-up page
-    * Has a form which allows the user to sign up for a newsletter about remote working
+    ![GalleryPage](docs/productlist.png)
+
+* Signup
+    * On this page, the user is presented with a form where they can sign up to a newsletter about remote working. This gives the user the option of learning more and staying up to date if they are interested in this topic.
+
+![Signup](docs/signup.png)
 
 * Footer
-    * Present on all pages, provides easy links to social media accounts for the page
+    * The footer is present on the bottom of all pages, and gives easy access to the social media pages of the site. These links open in a new tab.
+
+    ![Footer](docs/footer.png)
 
 * Favicon & 404 Page
-    * to allow easy location of tabs and to redirect the user if they mis-type the address
+    * The favicon allows the user to easily locate the tab for the site, and the 404 page will redirect themif they mis-type the address.
 
 ### Features to implement in the future
 * Add an embedded Google Maps view of the locations shown in the guide, to help the user visualise the geography and distances involved in moving house
@@ -46,7 +63,7 @@ Remote/Guide provides people with a list of the top cities and towns in Ireland 
 ![Newsletter](docs/newsletter.png)<br>
 
 
-## Technologies used
+## Technologies Used
 * HTML 
     * The structure and contents of the website were created using the HTML language.
 * CSS 
