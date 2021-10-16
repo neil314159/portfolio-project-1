@@ -287,57 +287,45 @@ nav {
 
 /* background image */
 .newsletter-signup {
-    clear: left;
     background: url("../images/signup-bg.jpg");
+    height: 1000px;
     background-size: cover;
     background-position: center;
-    height: 1000px;
 }
 
 /* form styling */
 .newsletter-form {
-    margin: 9rem 10% 0 0;
-    max-width: 25rem;
-    background-color: rgba(233, 196, 106, 0.9);
     position: absolute;
-    top: 15%;
-    left: 25%;
+    margin: 1rem 3rem;
+    max-width: 25rem;
+    background-color: #e9c46aff;
     padding: 1.8rem;
+    right: 0;
 }
 
 .form-text {
-    background: transparent;
     width: 100%;
-    height: 1.7rem;
+    height: 2rem;
     margin: 0.3rem 0 1.4rem 0;
     padding-left: 0.5rem;
-    border: 1px solid white;
-    border-radius: 0.4rem;
 }
 
 label {
     font-family: Inter, sans-serif;
 }
 
-.form-text:hover {
-    border-color: #e76f51ff;
-}
-
-.join-now-button {
-    font-family: 'Work Sans', sans-serif;
-    margin-top: 1.5rem;
-    font-size: 1.5rem;
-    border-radius: 0.5rem;
-    padding: 1rem 1.5rem;
+.signup-button {
     background-color: #e76f51ff;
     color: #001f3f;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1.5rem;
+    padding: 1rem 1.5rem;
     width: 100%;
-    display: block;
+    cursor: pointer;
 }
 
-.join-now-button:hover {
-    background-color: #fafafa;
-    color: #f16c6b;
+.signup-button:hover {
+    opacity: 0.8;
 }
 
 /* Footer */

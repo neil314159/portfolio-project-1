@@ -204,6 +204,8 @@ All pictures were taken from [Unsplash](www.unsplash.com) and [Pixabay](www.pixa
 
 The CSS clamp technique to vary text size without media queries and remain proportional to the screen size was used after watching Kevin Powell's Youtube channel found [here](https://www.youtube.com/kepowob/videos).
 
+The tutorial on W3 Schools found [here](https://www.w3schools.com/howto/howto_css_form_on_image.asp) was used to help with the newsletter signup page.
+
 ### Acknowledgements
 Thanks to Daisy McGirr for her advice and guidance.
 
