@@ -41,7 +41,7 @@ Remote/Guide provides people with a list of the top cities and towns in Ireland 
 * Make the newsletter signup form link to a functional backend providing an email response.
 
 ## Wireframes
-screenshots to go here
+![Homepage](https://github.com/neil314159/portfolio-project-1/blob/main/docs/homepage.png)
 
 ## Technologies used
 * HTML 
@@ -60,7 +60,7 @@ screenshots to go here
     * Git Pages is the platform upon which the site is deployed.
 * [Gitpod](https://gitpod.io) 
     * Gitpod was used as a development environment and pushed code to Github for storage and deployment.
-* [balsamiq Wireframes](https://balsamiq.com/wireframes/)
+* [Balsamiq](https://balsamiq.com/wireframes/)
 	* Balsamiq was used to explore initial designs for the site and develop wireframe models of the layout.
 * [Coolers CSS Pallette Generator](https://coolors.co)
     * Coolers was used to generate and compare colour pallettes to make sure the site had matching colour tones.
@@ -83,7 +83,7 @@ screenshots to go here
 
 
 ### Validation Testing
-* HTML: All pages in the site were tested using the [W3C Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fneil314159.github.io%2Fportfolio-project-1%2Findex.html). On the newsletter signup page I received a warning about a stray <div> tag which was then fixed. All other pages were passed showed no problems.
+* HTML: All pages in the site were tested using the [W3C Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fneil314159.github.io%2Fportfolio-project-1%2Findex.html). On the newsletter signup page I received a warning about a stray div tag which was then fixed. All other pages were passed showing no problems.
 * CSS: The CSS file was tested using the [W3C Jigsaw](jigsaw.w3.org) validator. This showed an extra hash mark in one of the number codes, which was then removed.
 * Accessibility: the site was examined using the Google Lighthouse suite in Chrome and the [Wave](https://wave.webaim.org/report#/https://neil314159.github.io/portfolio-project-1/index.html) accessibilty checker. This showed up one issue, which was the light text on an orange background for some buttons had a poor contrast ratio. The text was made darker and the issue was resolved.
 
@@ -114,7 +114,7 @@ The Remote/Guide website was deployed to GitHub Pages by following these steps:
 
 The written text on the main page was created by myself.
 
-The numerical data used was from [Switcher](https://www.switcher.ie)
+The numerical data used was from [Switcher](https://www.switcher.ie).
 
 ### Media
 
