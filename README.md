@@ -12,8 +12,9 @@
 
 ## Purpose
 
-Remote/Guide provides people with a list of the top cities and towns in Ireland suitable for remote working. This is based on criteria such as the price of renting or buying a house, the crime rate, the number of amenities in the area. The user is also provied with statistics on remote working, a resource page with links to recommended products and a newsletter to receive updates.
+The purpose of the Remote/Guide site is to provide people with information on places in Ireland suitable for remote working. These places are ranked by criteria such as the cost of renting or buying a house, the rate of crime, the amenities in the area. Each listing provides direct links on where to rent or buy accommodation for the area.
 
+There is also a list of useful products for someone who wants to work from home, with links on where to purchase them. The user can sign up for a newsletter to learn more about remote working.
 
 The site can be viewed [here](https://neil314159.github.io/portfolio-project-1/).
 
@@ -35,7 +36,7 @@ The site can be viewed [here](https://neil314159.github.io/portfolio-project-1/)
     ![Intro](docs/introstats.png)
 
 * Results
-    * There is a list of 5 places in Ireland ranked by how suitable they are for working from home. Each place has a card showing a picture of the area as well as information such as the cost of renting or buying a property, as well as the rate of crime and the amenities such as coffee shops available.
+    * There is a list of 5 places in Ireland ranked by how suitable they are for working from home. Each place has a card showing a picture of the area as well as information such as the cost of renting or buying a property, as well as the rate of crime and the amenities such as coffee shops available. There are direct links provided to useful websites if the user wishes to search for property in the area.
 
     ![City](docs/citycard.png)
 
@@ -149,7 +150,7 @@ All pictures were taken from [Unsplash](www.unsplash.com) and [Pixabay](www.pixa
 
 The CSS clamp technique to vary text size without media queries and remain proportional to the screen size was used after watching Kevin Powell's Youtube channel found [here](https://www.youtube.com/kepowob/videos).
 
-### Acknowledments
+### Acknowledgements
 Thanks to Daisy McGirr for her advice and guidance.
 
 # Note on commit history
