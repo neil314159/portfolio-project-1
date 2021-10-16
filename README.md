@@ -113,14 +113,14 @@ The site can be viewed [here](https://neil314159.github.io/portfolio-project-1/)
 
 * Test how responsive the website is on different browsers and screen sizes.
     * Test:
-        1. Select a test suite of browsers (Chrome, Safari, Firefox)
-        1. Open the dev tools on each browser and inspect the site at a variety of resolutions, from widescreen monitor down to legacy mobile devices (2000px down to 300px)
+        1. Select a test suite of browsers (Chrome, Safari, Firefox).
+        1. Open the dev tools on each browser and inspect the site at a variety of resolutions, from widescreen monitor down to legacy mobile devices (2000px down to 300px).
         1. Verify that the layout, appearance and functionality of the site is maintained at each resolution.
         1. By manually altering the screen size up and down check the breakpoints are operating correctly and the content scales in a smooth and responsive manner.
     * Result:
         * The site behaved responsively across all browsers and screen sizes.
 
-* Test that the site works as expected on a physical mobile device
+* Test that the site works as expected on a physical mobile device.
     * Test:
         1. Using an iPhone XR, open the browser and navigate to the site.
         1. Click each page, menu option and link to verify they work correctly. Also visually verify that the layout of the site is maintained on a mobile device.
@@ -199,7 +199,7 @@ The numerical data used was from [Switcher](https://www.switcher.ie).
 
 ### Media
 
-All pictures were taken from [Unsplash](www.unsplash.com) and [Pixabay](www.pixabay.com)
+All pictures were taken from [Unsplash](www.unsplash.com) and [Pixabay](www.pixabay.com).
 
 ### Code
 
