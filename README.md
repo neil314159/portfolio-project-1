@@ -13,6 +13,7 @@
 * [Deployment](#deployment)
 * [Credits](#credits)
 * [Acknowledgements](#acknowledgements)
+* [Note on Commit History](#note-on-commit-history)
 
 
 
@@ -109,9 +110,57 @@ The site can be viewed [here](https://neil314159.github.io/portfolio-project-1/)
 
 ## Testing
 
--strategy
--steps taken
--results
+
+* Test how responsive the website is on different browsers and screen sizes.
+    * Test:
+        1. Select a test suite of browsers (Chrome, Safari, Firefox)
+        1. Open the dev tools on each browser and inspect the site at a variety of resolutions, from widescreen monitor down to legacy mobile devices (2000px down to 300px)
+        1. Verify that the layout, appearance and functionality of the site is maintained at each resolution.
+        1. By manually altering the screen size up and down check the breakpoints are operating correctly and the content scales in a smooth and responsive manner.
+    * Result:
+        * The site behaved responsively across all browsers and screen sizes.
+
+* Test that the site works as expected on a physical mobile device
+    * Test:
+        1. Using an iPhone XR, open the browser and navigate to the site.
+        1. Click each page, menu option and link to verify they work correctly. Also visually verify that the layout of the site is maintained on a mobile device.
+    * Result:
+        * On a physical mobile device, all links, menu options and layout were operating as expected.
+
+* Click the links in the navigation bar to ensure they go to the correct page.
+    * Test:
+        1. Open the browser and navigate to the website.
+        1. Click each of the three navigation links in the menu bar (Home, Resources and Newsletter).
+    * Result:
+        * All links work correctly and send the user to the right page.
+
+* Test that the social media links in the footer work correctly.
+    * Test:
+        1. Open the browser and navigate to the website.
+        1. Click each link in the footer and verify that they open in a new tab to the correct social media page: Youtube, Facebook, Instagram and Twitter.
+    * Result:
+        * Each of the footer links operated correctly and opened the appropriate page in a new tab.
+
+* Test that navigation menu and footer links light up when the user hovers over them.
+    * Test:
+        1. Open the browser and navigate to the website.
+        1. Hover over each link in the navigation menu at the top of the screen and the footer menu at the bottom and confirm that they change colour when the pointer moves over them.
+    * Result:
+        * The two sets of links changed colour when hovered over using the mouse.
+
+* Test that the navigation bar shows the current page by underlining it.
+    * Test:
+        1. Open the browser and navigate to the website.
+        1. Click on each of the three links in the navigation menu and verify that the current page is highlighted by an underline on its entry in the menu.
+    * Result:
+        * Each page was correctly highlighted in the menu when the page is currently selected.
+                
+* Validate the inputs on the newsletter signup form.
+    * Test:
+        1. Start the browser, go to the website address and select the Newsletter tab in the navigation bar.
+        1. Enter text into the fields in the form, leaving different fields blank or using an incorrectly formed email address. 
+    * Result: 
+        * The form will not allow the user to submit it until each input field is filled in correctly. This confirms the inputs are being validated properly.
 
 
 ### Validation Testing
