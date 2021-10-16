@@ -52,9 +52,6 @@ screenshots to go here
 * [Git Pages](https://fontawesome.com) was used to deploy the site
 * [Gitpod](https://fontawesome.com) was used as a remote IDE to link with Github
 
-## Accessibility
-steps taken here, google report
-
 
 ## Testing
 
@@ -64,22 +61,20 @@ steps taken here, google report
 
 
 ### Validation Testing
-screenshot results here
+* HTML: All pages in the site were tested using the [W3C Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fneil314159.github.io%2Fportfolio-project-1%2Findex.html). On the newsletter signup page I received a warning about a stray <div> tag which was then fixed. All other pages were passed showed no problems.
+* CSS: The CSS file was tested using the [W3C Jigsaw](jigsaw.w3.org) validator. This showed an extra hash mark in one of the number codes, which was then removed.
+* Accessibility: the site was examined using the Google Lighthouse suite in Chrome and the [Wave](https://wave.webaim.org/report#/https://neil314159.github.io/portfolio-project-1/index.html) accessibilty checker. This showed up one issue, which was the light text on an orange background for some buttons had a poor contrast ratio. The text was made darker and the issue was resolved.
 
 
 ### Unfixed Bugs
 
-No bugs remain at this point.
-
-***
-
+No other bugs were found during my testing.
 
 
 ## Deployment
 
 ### Project Set-up
 The Code Institure template found [here](https://github.com/Code-Institute-Org/gitpod-full-template) was used. This template was pre-configured with useful extensions and allowed me to get the project up and running quickly. I selected a repository name and used Gitpod to start editing my project files.
-
 
 The Remote/Guide website was deployed to GitHub Pages by following these steps:
 1. Navigate to the [Project 1 portfolio](https://github.com/neil314159/portfolio-project-1) on GitHub.
@@ -89,15 +84,13 @@ The Remote/Guide website was deployed to GitHub Pages by following these steps:
 1. Click 'Save'.
 1. After a few moments the website was deployed, and can be accessed here: https://neil314159.github.io/portfolio-project-1/
 
-***
-
 ## Credits
 
 ### Content
 
 The written text on the main page was created by myself.
 
-The numerical data used was from[Switcher](https://www.switcher.ie)
+The numerical data used was from [Switcher](https://www.switcher.ie)
 
 ### Media
 
@@ -105,7 +98,7 @@ All pictures were taken from [Unsplash](www.unsplash.com) and [Pixabay](www.pixa
 
 ### Code
 
-The CSS clamp technique to vary text size without media queries and remain proprtional to the screen size was used after watching Kevin Powell's Youtube channel found [here](https://www.youtube.com/kepowob/videos)
+The CSS clamp technique to vary text size without media queries and remain proportional to the screen size was used after watching Kevin Powell's Youtube channel found [here](https://www.youtube.com/kepowob/videos).
 
 
 ### Acknowledments

@@ -110,6 +110,7 @@ nav {
 
 #hero-image {
     height: 30vh;
+    max-height:30rem;
     width: 100%;
     overflow: hidden;
     background-image: url(../images/hero-image.jpg);
