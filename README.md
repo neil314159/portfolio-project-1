@@ -5,14 +5,20 @@
 ## Table of Contents
 * [Purpose](#Purpose)
 * [Features](#Features)
-* [Future Features](#future-features)
+* [Future Features](#features-to-implement-in-the-future)
 * [Wireframes](#wireframes)
 * [Technologies Used](#Technologies-Used)
+* [Testing](#Testing)
+* [Validation Testing](#validation-testing)
+* [Deployment](#deployment)
+* [Credits](#credits)
+* [Acknowledgements](#acknowledgements)
+
 
 
 ## Purpose
 
-The purpose of the Remote/Guide site is to provide people with information on places in Ireland suitable for remote working. These places are ranked by criteria such as the cost of renting or buying a house, the rate of crime, the amenities in the area. Each listing provides direct links on where to rent or buy accommodation for the area.
+The purpose of the Remote/Guide site is to provide people with information on places in Ireland suitable for remote working. These places are ranked by criteria such as the cost of renting or buying a house, the rate of crime and the amenities available. Each listing provides direct links on where to rent or buy accommodation for the area.
 
 There is also a list of useful products for someone who wants to work from home, with links on where to purchase them. The user can sign up for a newsletter to learn more about remote working.
 
@@ -21,7 +27,7 @@ The site can be viewed [here](https://neil314159.github.io/portfolio-project-1/)
 ## Features
 
 * Navigation Bar 
-    * This provides links to the home page, the resource page and the newsletter signup page, allowing the user to easily navigate their way to each section. This is a clear, simple menu present on every page so the user can be confident in using the site.
+    * This provides links to the home page, the resource page and the newsletter signup page, allowing the user to easily navigate their way to each section. This is a clear, simple menu present on every page so the user can be confident in finding their way around the site.
 
     ![Navigation](docs/nav.png)
 
@@ -31,17 +37,17 @@ The site can be viewed [here](https://neil314159.github.io/portfolio-project-1/)
     ![Header](docs/heroimage.png)
 
 * Introduction & Statistics
-    * Here the user can learn the purpose of the site and the type of information they will learn. In this case, the best places to work from home in Ireland are ranked in a list. They are also provided with background information on changing attitudes to remote working to better inform them.
+    * Here the user can see the purpose of the site and the type of information available. In this case, the best places to work from home in Ireland are ranked in a list. They are also provided with background information on changing attitudes to remote working. 
 
     ![Intro](docs/introstats.png)
 
 * Results
-    * There is a list of 5 places in Ireland ranked by how suitable they are for working from home. Each place has a card showing a picture of the area as well as information such as the cost of renting or buying a property, as well as the rate of crime and the amenities such as coffee shops available. There are direct links provided to useful websites if the user wishes to search for property in the area.
+    * This is a list of 5 places in Ireland ranked by how suitable they are for working from home. Each place has a card showing a picture of the area as well as information such as the cost of renting or buying a property. There are direct links provided to useful websites if the user wishes to search for property in the area. 
 
     ![City](docs/citycard.png)
 
 * Resource Page
-    * Here the user can see a gallery page with useful products for working from home. They can see pictures of the product, as well as clicking the links to be presented with options on where to buy them. These links open in a new tab.
+    * Here the user can see a gallery page with useful products for working from home. They can view pictures of the product, as well as clicking links to be presented with options on where to buy them. These links open in a new tab.
 
     ![GalleryPage](docs/productlist.png)
 
@@ -51,7 +57,7 @@ The site can be viewed [here](https://neil314159.github.io/portfolio-project-1/)
 ![Signup](docs/signup.png)
 
 * Footer
-    * The footer is present on the bottom of all pages, and gives easy access to the social media pages of the site. These links open in a new tab.
+    * The interactive footer with a hover effect is present on the bottom of all pages, and gives easy access to the social media pages of the site. These links open in a new tab.
 
     ![Footer](docs/footer.png)
 
