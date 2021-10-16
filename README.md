@@ -41,7 +41,10 @@ Remote/Guide provides people with a list of the top cities and towns in Ireland 
 * Make the newsletter signup form link to a functional backend providing an email response.
 
 ## Wireframes
-![Homepage](https://github.com/neil314159/portfolio-project-1/blob/main/docs/homepage.png)
+![Homepage](docs/homepage.png)<br>
+![Resource Page](docs/gallery.png)<br>
+![Newsletter](docs/newsletter.png)<br>
+
 
 ## Technologies used
 * HTML 
