@@ -110,7 +110,7 @@ nav {
 
 #hero-image {
     height: 30vh;
-    max-height:30rem;
+    max-height: 30rem;
     width: 100%;
     overflow: hidden;
     background-image: url(../images/hero-image.jpg);
@@ -174,8 +174,8 @@ nav {
     margin-bottom: 3rem;
     width: 40%;
     display: flex;
-  justify-content: space-around;
-  flex-direction: column;
+    justify-content: space-around;
+    flex-direction: column;
 }
 
 .citydetail {
@@ -296,13 +296,13 @@ nav {
 
 /* form styling */
 .newsletter-form {
-    margin: 150px 10% 0 0;
+    margin: 9rem 10% 0 0;
+    max-width: 25rem;
     background-color: rgba(233, 196, 106, 0.9);
-    max-width: 400px;
     position: absolute;
     top: 15%;
     left: 25%;
-    padding: 30px;
+    padding: 1.8rem;
 }
 
 .form-text {
@@ -383,6 +383,7 @@ footer {
 /* Media Queries */
 
 @media (max-width: 800px) {
+
     /*make menu smaller*/
     #menu {
         font-size: 1.2rem;
@@ -397,7 +398,7 @@ footer {
         margin-right: 1rem;
     }
 
-     /* Arrange city card vertically on smaller screens*/
+    /* Arrange city card vertically on smaller screens*/
     #cities {
         width: 100%;
     }

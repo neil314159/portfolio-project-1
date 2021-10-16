@@ -16,7 +16,6 @@
 * [Note on Commit History](#note-on-commit-history)
 
 
-
 ## Purpose
 
 The purpose of the Remote/Guide site is to provide people with information on places in Ireland suitable for remote working. These places are ranked by criteria such as the cost of renting or buying a house, the rate of crime and the amenities available. Each listing provides direct links on where to rent or buy accommodation for the area.
@@ -166,7 +165,7 @@ The site can be viewed [here](https://neil314159.github.io/portfolio-project-1/)
 ### Validation Testing
 * HTML: All pages in the site were tested using the [W3C Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fneil314159.github.io%2Fportfolio-project-1%2Findex.html). On the newsletter signup page I received a warning about a stray div tag which was then fixed. All other pages were passed showing no problems.
 * CSS: The CSS file was tested using the [W3C Jigsaw](jigsaw.w3.org) validator. This showed an extra hash mark in one of the number codes, which was then removed.
-* Accessibility: the site was examined using the Google Lighthouse suite in Chrome and the [Wave](https://wave.webaim.org/report#/https://neil314159.github.io/portfolio-project-1/index.html) accessibilty checker. This showed up one issue, which was the light text on an orange background for some buttons had a poor contrast ratio. The text was made darker and the issue was resolved.
+* Accessibility: the site was examined using the Google Lighthouse suite in Chrome and the [Wave](https://wave.webaim.org/report#/https://neil314159.github.io/portfolio-project-1/index.html) accessibility checker. This showed up one issue, which was the light text on an orange background for some buttons had a poor contrast ratio. The text was made darker and the issue was resolved.
 
 ![Lighthouse](https://github.com/neil314159/portfolio-project-1/blob/main/docs/lighthouse.png)
 
@@ -179,7 +178,7 @@ No other bugs were found during my testing.
 ## Deployment
 
 ### Project Set-up
-The Code Institure template found [here](https://github.com/Code-Institute-Org/gitpod-full-template) was used. This template was pre-configured with useful extensions and allowed me to get the project up and running quickly. I selected a repository name and used Gitpod to start editing my project files.
+The Code Institute template found [here](https://github.com/Code-Institute-Org/gitpod-full-template) was used. This template was pre-configured with useful extensions and allowed me to get the project up and running quickly. I selected a repository name and used Gitpod to start editing my project files.
 
 The Remote/Guide website was deployed to GitHub Pages by following these steps:
 1. Navigate to the [Project 1 portfolio](https://github.com/neil314159/portfolio-project-1) on GitHub.
