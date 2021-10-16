@@ -4,7 +4,9 @@
 
 ## Table of Contents
 * [Purpose](#Purpose)
-* [Features] (#Features)
+* [Features](#Features)
+* [Future Features](#future-features)
+* [Wireframes](#wireframes)
 * [Technologies Used](#Technologies-Used)
 
 
@@ -12,10 +14,13 @@
 
 Remote/Guide provides people with a list of the top cities and towns in Ireland suitable for remote working. This is based on criteria such as the price of renting or buying a house, the crime rate, the number of amenities in the area. The user is also provied with statistics on remote working, a resource page with links to recommended products and a newsletter to receive updates.
 
+
+The site can be viewed [here](https://neil314159.github.io/portfolio-project-1/).
+
 ## Features
 
 * Navigation Bar 
-    * Provides links to the home page, the resource page and the newsletter signup page, allowing the user to easily navigate their way to each section. This is a clear, simple menu present on every page so the user can be confident in using the site.
+    * This provides links to the home page, the resource page and the newsletter signup page, allowing the user to easily navigate their way to each section. This is a clear, simple menu present on every page so the user can be confident in using the site.
 
     ![Navigation](docs/nav.png)
 
@@ -50,7 +55,7 @@ Remote/Guide provides people with a list of the top cities and towns in Ireland 
     ![Footer](docs/footer.png)
 
 * Favicon & 404 Page
-    * The favicon allows the user to easily locate the tab for the site, and the 404 page will redirect themif they mis-type the address.
+    * The favicon allows the user to easily locate the tab for the site, and the 404 page will redirect them if they mis-type the address.
 
 ### Features to implement in the future
 * Add an embedded Google Maps view of the locations shown in the guide, to help the user visualise the geography and distances involved in moving house
