@@ -71,16 +71,25 @@ screenshot results here
 
 No bugs remain at this point.
 
+***
+
+
 
 ## Deployment
 
-Remote/Guide was deployed to GitHub Pages by following the below steps:
+### Project Set-up
+The Code Institure template found [here](https://github.com/Code-Institute-Org/gitpod-full-template) was used. This template was pre-configured with useful extensions and allowed me to get the project up and running quickly. I selected a repository name and used Gitpod to start editing my project files.
+
+
+The Remote/Guide website was deployed to GitHub Pages by following these steps:
 1. Navigate to the [Project 1 portfolio](https://github.com/neil314159/portfolio-project-1) on GitHub.
-1. Navigate to the 'Settings' tab.
-1. Navigate to 'Pages' from the menu on the left. 
-1. Select 'main' branch in the source drop-down.
+1. Click on the 'Settings' tab.
+1. Select 'Pages' from the menu on the left. 
+1. Select the 'main' branch in the source selector drop-down.
 1. Click 'Save'.
-1. A link to the live deployed page is generated and can be found here: https://neil314159.github.io/portfolio-project-1/
+1. After a few moments the website was deployed, and can be accessed here: https://neil314159.github.io/portfolio-project-1/
+
+***
 
 ## Credits
 
@@ -96,10 +105,11 @@ All pictures were taken from [Unsplash](www.unsplash.com) and [Pixabay](www.pixa
 
 ### Code
 
-CSS clamp technique taken from youtube tutorial at Kevin Parnell's channel, linked here.
+The CSS clamp technique to vary text size without media queries and remain proprtional to the screen size was used after watching Kevin Powell's Youtube channel found [here](https://www.youtube.com/kepowob/videos)
+
 
 ### Acknowledments
 Thanks to Daisy McGirr for her advice and guidance.
 
 # Note on commit history
-There was a brief period during this project where Gitpod was offline, so I used my own local copy of VS Code on my laptop. When I Linked to Github and made my commits it did not authenticate them properly, and so it can appear that another user was making commits. I have contacted Student Care and one of the online tutors about this, who recommended including this explanation. If you have any concerns I can be contacted about this.
+There was a brief period during this project where Gitpod was offline, so I used my own local copy of VS Code on my laptop. When I linked to Github and made my commits it did not authenticate them properly, and so it can appear that another user was making commits. I have contacted Student Care and one of the online tutors about this, who recommended including this explanation. If you have any concerns I can be contacted about this.
